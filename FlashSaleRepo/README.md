@@ -17,7 +17,11 @@ API
 This library contains two public facing APIs:
 
     Internal API is at com.sale.flashsale.controller.FlashSaleInternalController. This is not to be exposed outside.
+    Internal Endpoints: /createflashsale, /stopflashsale,  /stopflashsale
+    
     External API is at com.sale.flashsale.controller.FlashSaleController.
+    External Endpoints:/register, /sale
+    
 
 
 We have made some assumptions:
