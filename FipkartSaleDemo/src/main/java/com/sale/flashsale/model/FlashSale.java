@@ -26,6 +26,9 @@ public class FlashSale {
 		this.status = status;
 		this.registrationOpen = registrationOpen;
 	}
+	public FlashSale() {
+		
+	}
 
 	public Integer getId() {
 		return id;

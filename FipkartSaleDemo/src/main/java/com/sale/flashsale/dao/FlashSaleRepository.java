@@ -10,6 +10,6 @@ import com.sale.flashsale.model.Buyer;
 import com.sale.flashsale.model.FlashSale;
 
 	@Repository
-	public interface FlashSaleRepository extends JpaRepository<Buyer, Integer>{	 
+	public interface FlashSaleRepository extends JpaRepository<FlashSale, Integer>{	 
 	
 }
